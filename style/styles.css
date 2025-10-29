@@ -116,12 +116,14 @@ button {
     transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    text-decoration: none;
 }
 
 button:first-of-type {
     background: #e67e22;
     color: white;
     box-shadow: 0 2px 8px rgba(230, 126, 34, 0.3);
+    text-decoration: none;
 }
 
 button:last-of-type {
@@ -143,7 +145,10 @@ button:last-of-type:hover {
     background: #2c3e50;
     color: white;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
 /* Example photos section */
 .example-photos {
     flex: 1;
@@ -180,7 +185,6 @@ button:last-of-type:hover {
 
 /* Placeholder for images */
 .photo::after {
-    content: 'Примерен проект';
     position: absolute;
     top: 50%;
     left: 50%;
