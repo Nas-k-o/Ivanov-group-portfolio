@@ -70,8 +70,8 @@ nav a:hover::after {
 /* Main content layout */
 .sections-container {
     display: flex;
-    gap: 2rem;
-    padding: 3rem 5%;
+    gap: 1rem; /* reduced from 2rem to slightly tighten spacing between columns/rows */
+    padding: 1.5rem 5%; /* reduced from 3rem to decrease vertical spacing between stacked sections */
     max-width: 1400px;
     margin: 0 auto;
     align-items: flex-start;
@@ -83,7 +83,7 @@ nav a:hover::after {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     border-left: 4px solid #e67e22;
     max-width: 1400px;
-    margin: 2rem auto;
+    margin: 1rem auto; /* reduced from 2rem to tighten vertical gap */
     padding: 2rem 5%;
     color: #2c3e50;
 }
