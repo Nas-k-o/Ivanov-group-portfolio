@@ -360,6 +360,46 @@ footer {
     font-size: 1.05rem;
 }
 
+/* Pricing container — align width/spacing with .page-header */
+.pricing .container {
+    max-width: 1400px;
+    margin: 1.5rem auto;
+    padding: 1.5rem 5%;
+}
+
+/* Price-item cards styled like .page-header */
+.pricing .container .price-item {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #e67e22;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* Typography adjustments inside cards */
+.pricing .container .price-item h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.pricing .container .price-item p,
+.pricing .container .price-item ul,
+.pricing .container .price-item li {
+    color: #5d6d7e;
+    line-height: 1.6;
+}
+
+/* keep the final note visually separate but consistent */
+.pricing .container .price-note {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: transparent;
+}
+
 /* ensure spacing on smaller screens */
 @media (max-width: 768px) {
     .page-header {
