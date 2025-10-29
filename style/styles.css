@@ -77,6 +77,28 @@ nav a:hover::after {
     align-items: flex-start;
 }
 
+.page-header {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #e67e22;
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 2rem 5%;
+    color: #2c3e50;
+}
+
+.page-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.page-header p {
+    color: #5d6d7e;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
 /* Introduction section */
 .introduction {
     flex: 1;
